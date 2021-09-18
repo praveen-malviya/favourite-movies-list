@@ -118,6 +118,7 @@ function App() {
 
             <div className="movieName"> {movie.movieName}</div>
             <div className="movieRating">IMDB: {movie.moiveRating}</div>
+            {/* <p>The Avengers are a fictional team of superheroes and the protagonists of the Marvel Cinematic Universe</p> */}
             </li>    
              ))}
       </ul>
