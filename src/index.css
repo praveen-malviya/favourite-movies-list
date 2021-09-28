@@ -70,17 +70,18 @@ box-shadow: 2px 2px 10px #E8E8E8;
 
 }
 
-.moviePoster:hover{
-  width: 500px;
-  height: 400px;
- position:absolute;
- border-radius: 40%;
- /* border: 3px solid black; */
- box-shadow: 1px 1px 10px;
-
- top: 32%;
- left: 32%;
+@media only screen and (min-width: 600px){
+  .moviePoster:hover{
+    width: 500px;
+    height: 400px;
+   position:absolute;
+   border-radius: 40%;
+   box-shadow: 1px 1px 10px;
+   top: 33%;
+   left: 30%;
+  }
 }
+
 
 
 .movieName{
