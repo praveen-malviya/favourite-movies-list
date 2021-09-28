@@ -100,7 +100,7 @@ function App() {
     <div className="App">
         <header>
        <h2>Favourite Movies List</h2>
-       <p>Check Out My Favourite List Of Movies In Each Genre</p>
+       <h4>Check Out My Favourite List Of Movies In Each Genre</h4>
        </header>
 
       <button onClick={()=> setMovies(sciFi)}>Sci-fi</button>
