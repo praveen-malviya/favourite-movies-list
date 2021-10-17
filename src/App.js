@@ -2,8 +2,6 @@ import { useState } from "react";
 
 function App() {
 
-  const [movies, setMovies] = useState([]);
-
   const sciFi = [
     {
       movieName : "Avengers",
@@ -109,7 +107,7 @@ function App() {
     }
   ]
 
-  // console.log(sciFi[0].movieName);
+  const [movies, setMovies] = useState(sciFi);
 
   return (
     <div className="App">
